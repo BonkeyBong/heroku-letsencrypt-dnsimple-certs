@@ -27,4 +27,4 @@ echo "Finished running certbot, adding domain to Heroku"
 cd ./letsencrypt/config/live/$WILDCARD_DOMAIN/
 
 ls
-heroku certs:update fullchain.pem privkey.pem -a $HEROKU_APP
+heroku certs:update fullchain.pem privkey.pem -a $HEROKU_APP --confirm $HEROKU_APP
