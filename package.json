@@ -1,0 +1,14 @@
+{
+  "name": "certrenewal",
+  "version": "1.0.0",
+  "description": "DNSimple node script to set TXT record for SSL domain validation",
+  "main": "dnsChallenge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dirk Heniges",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}

@@ -1,2 +1,5 @@
 .DS_Store
 letsencrypt/
+backup/
+node_modules/
+secrets.json
