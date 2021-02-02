@@ -8,6 +8,8 @@ echo "acquiring certificate $WILDCARD_DOMAIN for Heroku app $HEROKU_APP"
 # letsencrypt production:
 # https://acme-v02.api.letsencrypt.org/directory
 
+cd $(dirname "$0")
+
 certbot certonly \
   --manual \
   -n \
